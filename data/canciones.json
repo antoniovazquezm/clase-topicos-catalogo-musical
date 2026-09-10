@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "titulo": "Shape of You",
+        "artista": "Ed Sheeran",
+        "album": "Divide",
+        "anio": 2017,
+        "genero": "Pop",
+        "duracion": "3:25"
+    },
+    {
+        "id": 2,
+        "titulo": "Blinding Lights",
+        "artista": "The Weeknd",
+        "album": "After Hours",
+        "anio": 2020,
+        "genero": "Synthwave",
+        "duracion": "3:20"
+    },
+    {
+        "id": 3,
+        "titulo": "Levitating",
+        "artista": "Dua Lipa",
+        "album": "Future Nostalgia",
+        "anio": 2020,
+        "genero": "Disco-pop",
+        "duracion": "3:23"
+    },
+    {
+        "id": 4,
+        "titulo": "Bad Guy",
+        "artista": "Billie Eilish",
+        "album": "When We All Fall Asleep, Where Do We Go?",
+        "anio": 2019,
+        "genero": "Electropop",
+        "duracion": "3:14"
+    },
+    {
+        "id": 5,
+        "titulo": "Watermelon Sugar",
+        "artista": "Harry Styles",
+        "album": "Fine Line",
+        "anio": 2019,
+        "genero": "Pop rock",
+        "duracion": "2:54"
+    },
+    {
+        "id": 6,
+        "titulo": "Dance Monkey",
+        "artista": "Tones and I",
+        "album": "The Kids Are Coming",
+        "anio": 2019,
+        "genero": "Electropop",
+        "duracion": "3:29"
+    },
+    {
+        "id": 7,
+        "titulo": "Senorita",
+        "artista": "Shawn Mendes & Camila Cabello",
+        "album": "Shawn Mendes (Deluxe)",
+        "anio": 2019,
+        "genero": "Pop",
+        "duracion": "3:11"
+    },
+    {
+        "id": 8,
+        "titulo": "Old Town Road",
+        "artista": "Lil Nas X",
+        "album": "7 EP",
+        "anio": 2019,
+        "genero": "Country rap",
+        "duracion": "2:37"
+    },
+    {
+        "id": 10,
+        "titulo": "Someone You Loved",
+        "artista": "Lewis Capaldi",
+        "album": "",
+        "anio": 2018,
+        "genero": "",
+        "duracion": ""
+    },
+    {
+        "titulo": "Bass Persuades",
+        "genero": "Pop",
+        "duracion": "3:00",
+        "artista": "Miley Cyrus",
+        "anio": 2026,
+        "album": "Bass Persuades",
+        "id": 11
+    }
+]
