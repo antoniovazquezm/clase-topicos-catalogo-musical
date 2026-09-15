@@ -66,6 +66,23 @@ def eliminar_cancion(id):
             return jsonify({"mensaje": "Canción eliminada correctamente"}), 200
     return jsonify({"error": "Canción no encontrada"}), 404
 
+@app.patch("/canciones/<int:id>")
+def actualizar_cancion(id):
+    datos = request.get_json()
+    canciones = cargar_canciones()
+    for cancion in canciones:
+        if cancion ["id"] == id:
+            campos_permitidos = ["titulo", "artista", "album", "anio", "genero","duracion"]
+
+            for campo in campos_permitidos:
+                if campo in datos:
+                    cancion[campo] = datos[campo]
+            guardar_canciones(canciones)
+            return jsonify({"mensaje": "Canción actualizada correctamente"}), 200
+    return jsonify({"error": "Canción no encontrada"}), 404
+
+    
+
 if __name__ == "__main__":
     app.run(debug=True)
 
